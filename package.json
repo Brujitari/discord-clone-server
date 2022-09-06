@@ -15,5 +15,20 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "name": "discord-clone-server",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brujitari/discord-clone-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brujitari/discord-clone-server/issues"
+  },
+  "homepage": "https://github.com/Brujitari/discord-clone-server#readme"
 }
