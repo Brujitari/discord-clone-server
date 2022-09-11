@@ -8,9 +8,11 @@ const db = require("./configs/db");
 
 const app = express();
 
-app.use(cors(options));
+//app.use(cors(options));
 app.use(express.json());
 app.use(cookieParser());
+
+app.use("/", require("./services")(db));
 
 app.use((_, __, next) => {
   next(errors[404]);
