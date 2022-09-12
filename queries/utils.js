@@ -2,7 +2,6 @@ const queryCatcher =
   (fn, origin) =>
   async (...args) => {
     try {
-        console.log('fn: ', fn)
       const result = await fn(...args);
 
       return {
