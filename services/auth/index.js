@@ -9,7 +9,7 @@ const forms = {
 module.exports = (db) => {
   router.post("/register", checker(...forms.register), require("./register")(db));
   router.post("/login", checker(...forms.login), require("./login")(db));
-//   router.post("/logout", authorizer, require("./logout")());
+  router.post("/logout", authorizer, require("./logout")());
 
   return router;
 };
