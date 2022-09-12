@@ -14,7 +14,8 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "standard-version": "^9.5.0"
   },
   "name": "discord-clone-server",
   "description": "",
