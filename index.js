@@ -1,12 +1,11 @@
-require("dotenv").config();
+const { PORT } = require("./environments");
 const app = require("./app");
-// const options = require("./configs/cors");
 
 
 const main = async () => {
-  (await app()).listen(process.env.PORT, () =>
+  (await app()).listen(PORT, () =>
     console.info(
-      `😋🌈 te escucho en el ${process.env.PORT} bb 🦋`
+      `😋 te escucho en el ${PORT} bb 🌈 entorno: ${process.env.NODE_ENV} 🦋`
     )
   );
 };
