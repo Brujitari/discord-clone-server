@@ -1,7 +1,7 @@
 name: (STAGING) deploy to Railway
 
 on:
-  push:
+  pull_request:
     branches:
       - master
 
