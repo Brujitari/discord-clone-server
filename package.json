@@ -1,10 +1,8 @@
 {
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "NODE_ENV=test npm run dev",
     "start": "NODE_ENV=production node index.js",
-    "db:local": "NODE_ENV=local node scripts/db.js",
-    "db:test": "NODE_ENV=test node scripts/db.js",
+    "db": "node scripts/db.js",
     "release": "standard-version"
   },
   "dependencies": {
