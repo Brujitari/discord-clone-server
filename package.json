@@ -1,7 +1,9 @@
 {
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "NODE_ENV=production node index.js",
+    "db": "node scripts/db.js",
+    "release": "standard-version"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
