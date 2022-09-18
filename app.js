@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
+
 const cookieParser = require("cookie-parser");
 const errors = require("./errors/commons");
 // const options = require("./configs/cors");
@@ -27,3 +28,4 @@ module.exports = async () => {
 
   return app;
 };
+

@@ -1,4 +1,4 @@
-const whitelist = ["http://localhost:3006"];
+const whitelist = ["http://localhost:3000"];
 
 module.exports = {
   origin: (origin, callback) => {
