@@ -4,12 +4,12 @@ const cors = require("cors");
 
 const cookieParser = require("cookie-parser");
 const errors = require("./errors/commons");
-// const options = require("./configs/cors");
+const options = require("./configs/cors");
 
 
 module.exports = async () => {
   const db = await require("./configs/db");
-  app.use(cors());
+  app.use(cors(options));
   app.use(express.json());
   
   app.use(cookieParser());
