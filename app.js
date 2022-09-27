@@ -9,7 +9,7 @@ const options = require("./configs/cors");
 
 module.exports = async () => {
   const db = await require("./configs/db");
-  app.use(cors(options));
+  app.use(cors(NODE_ENV !== 'production' && options));
   app.use(express.json());
   
   app.use(cookieParser());
