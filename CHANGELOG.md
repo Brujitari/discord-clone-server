@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Brujitari/discord-clone-server/compare/v1.1.1...v1.2.0) (2022-09-28)
+
+
+### Features
+
+* cors options ([8bdbfd3](https://github.com/Brujitari/discord-clone-server/commit/8bdbfd3bd86b9859edc2cb15bfa66abb9585a04c))
+* getUser ([7a33cc9](https://github.com/Brujitari/discord-clone-server/commit/7a33cc9222ef6be24ecd56d383031d7f5ffbd790))
+
+
+### Bug Fixes
+
+* cors only on production ([4af9cb7](https://github.com/Brujitari/discord-clone-server/commit/4af9cb7385e253eefee22231c606668e46822974))
+* secure prod true ([fcfd0b4](https://github.com/Brujitari/discord-clone-server/commit/fcfd0b44ae86aa6ec13dfeadf18bbca4abd7b8b4))
+
 ### [1.1.1](https://github.com/Brujitari/discord-clone-server/compare/v1.1.0...v1.1.1) (2022-09-18)
 
 ## 1.1.0 (2022-09-14)
