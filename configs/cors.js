@@ -1,4 +1,4 @@
-const whitelist = ["http://localhost:3000", "https://discord-client-brujitari.vercel.app"];
+const whitelist = ["http://localhost:3000", "https://discord-client-brujitari.vercel.app", "https://discord-client-six.vercel.app"];
 
 module.exports = {
   origin: (origin, callback) => {
